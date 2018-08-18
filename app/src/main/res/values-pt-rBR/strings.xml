@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pokedex</string>
+    <string name="label_description">Descrição</string>
+    <string name="label_abilities">Habilidades</string>
+    <string name="label_hp">HP</string>
+    <string name="label_speed">Velocidade</string>
+    <string name="label_attack">Ataque</string>
+    <string name="label_defense">Defesa</string>
+</resources>

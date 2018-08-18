@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetalheActivity">
+
+    <TextView
+        style="@style/label_detail"
+        android:text="#150 Mewtwo" />
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/mewtwo" />
+
+    </android.support.v7.widget.CardView>
+
+    <TextView
+        style="@style/label_detail"
+        android:text="@string/label_description" />
+
+    <View style="@style/divider" />
+
+    <TextView
+        style="@style/label_description"
+        tools:text="Bla bla bla bla bla" />
+
+    <View style="@style/divider" />
+
+    <TextView
+        style="@style/label_detail"
+        android:text="@string/label_abilities" />
+
+    <View style="@style/divider" />
+
+    <LinearLayout style="@style/container_abilities">
+
+        <LinearLayout style="@style/container_abilities_child">
+
+            <TextView style="@style/abilities_title" />
+
+            <TextView
+                style="@style/abilities_subtitle"
+                android:text="@string/label_hp" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/container_abilities_child">
+
+            <TextView style="@style/abilities_title" />
+
+            <TextView
+
+                style="@style/abilities_subtitle"
+                android:text="@string/label_speed" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/divider" />
+
+    <LinearLayout style="@style/container_abilities">
+
+        <LinearLayout style="@style/container_abilities_child">
+
+            <TextView style="@style/abilities_title" />
+
+            <TextView
+                style="@style/abilities_subtitle"
+                android:text="@string/label_attack" />
+
+        </LinearLayout>
+
+        <LinearLayout style="@style/container_abilities_child">
+
+            <TextView style="@style/abilities_title" />
+
+            <TextView
+                style="@style/abilities_subtitle"
+                android:text="@string/label_defense" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <View style="@style/divider" />
+</LinearLayout>
